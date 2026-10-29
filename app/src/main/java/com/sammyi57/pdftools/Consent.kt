@@ -45,7 +45,7 @@ import kotlinx.coroutines.delay
 // fits without scrolling: what the app does with your files, then a tick for each document.
 
 // The contact address shown in the privacy policy (and on its web page, built from this file by scripts/build_policy_page.py).
-private const val CONTACT = "bhingesamarth@gmail.com"
+private const val CONTACT = "begoodnj@gmail.com"
 
 private val POINTS = listOf(
   I.cellphoneLock to "Every tool runs on this phone",
