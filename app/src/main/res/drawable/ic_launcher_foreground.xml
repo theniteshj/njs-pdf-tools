@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A page in a camera viewfinder: scan and PDF tools. Kept inside the 66dp safe circle. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M31,40V31H40 M68,31H77V40 M31,68V77H40 M68,77H77V68"
+        android:strokeColor="#F2FFFFFF" android:strokeWidth="3.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M43.5,35H59L67,43V70.5Q67,73 64.5,73H43.5Q41,73 41,70.5V37.5Q41,35 43.5,35Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M59,35V43H67Z" android:fillColor="#FFD7EFFF" />
+    <path android:pathData="M46.75,48H53.25A1.75,1.75 0,0 1,53.25 51.5H46.75A1.75,1.75 0,0 1,46.75 48Z" android:fillColor="#FFFF5C34" />
+    <path android:pathData="M46,55H62A1,1 0,0 1,62 57H46A1,1 0,0 1,46 55Z M46,59.5H60A1,1 0,0 1,60 61.5H46A1,1 0,0 1,46 59.5Z M46,64H56A1,1 0,0 1,56 66H46A1,1 0,0 1,46 64Z"
+        android:fillColor="#FFE3D6DC" />
+</vector>

@@ -1,0 +1,48 @@
+Scan, merge, split, sign and compress PDFs, right on your phone. PDF Tools packs 24 tools and a document scanner into one free app with no ads, no sign-up and no tracking.
+
+EVERYTHING STAYS ON YOUR PHONE
+Every tool runs on your device, so your documents are never uploaded anywhere. Works offline, even in airplane mode. Google Drive backup is optional and goes only to your own Drive.
+
+SCAN DOCUMENTS
+• Camera scanner that finds the page edges for you, with auto or manual capture
+• Front or back camera, flash, and import from your gallery
+• Documents, books, ID cards (front and back on one page), business cards and whiteboards
+• Crop, rotate, filters, brightness and contrast, plus cleanup and markup brushes in any colour
+• Searchable scans: text recognition runs on your phone, so you can search and copy the words
+
+COMBINE AND SPLIT
+• Merge PDFs and reorder files before merging
+• Alternate and mix pages from several PDFs
+• Split by page, by ranges, by a phrase, by bookmarks, in half, or by file size
+• Bundle PDFs into a ZIP
+
+ARRANGE PAGES
+• Reorder, rotate or delete pages
+• Rotate and flip PDFs
+• Put 2, 4, 6, 9 or 16 pages on one sheet
+• Crop pages or resize them to A4, A5, Letter or Legal
+
+SIGN, FILL AND MARK UP
+• Fill and sign: type on a form and place your own drawn signature or a picture
+• Add a watermark or page numbers
+• Redact: black out private details for good, so they can't be copied or uncovered
+• Edit a PDF's title, author, subject and keywords
+
+COMPRESS AND PROTECT
+• Compress PDFs by level, or squeeze a file to fit under a size you choose
+• Make scanned PDFs searchable with OCR
+• Set a password on a PDF, or remove one you know
+
+MORE
+• Built-in PDF viewer on supported phones: zoom, select and copy text, search, page thumbnails and jump to page
+• Workflow builder: chain tools together and run them on one or many PDFs
+• Preview a result before you save it, and pin your favourite tools to the top
+• Folders, search, rename and share
+• Two-way Google Drive sync (optional), so your PDFs and folders match on your phone and in your Drive
+• Save as Word or JPEG
+• Light and dark themes
+
+FREE AND PRIVATE
+No ads. No account. No analytics. The app collects nothing; the source code is open on GitHub.
+
+Questions or ideas? Use Send feedback in Settings.

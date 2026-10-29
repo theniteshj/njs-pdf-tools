@@ -1,0 +1,29 @@
+# Gradle and Kotlin build output
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# Local machine settings (SDK path) and IDE files
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Signing keys and secrets (the upload key lives in ~/.gradle/gradle.properties, never here)
+*.jks
+*.p12
+*.pem
+*.key
+keystore.properties
+
+# Raw phone screenshots that feed store-screenshots/make_store.py. They show real files and an account name, so they stay
+# on this machine; only the finished images in store-screenshots/play/ are committed.
+/store-screenshots/*.png
+
+# Built APKs go in GitHub releases, not the repo
+/release-apks/
+
+# Local helper scripts (Play assets, policy page) stay on this machine
+/scripts/
+/store-screenshots/*.py
