@@ -29,7 +29,7 @@ android {
       if (file("debug.keystore").exists()) storeFile = file("debug.keystore")
     }
     // Your upload key, kept out of the repo in ~/.gradle/gradle.properties (same properties the Expo build read).
-    val store = findProperty("PDF_TOOLS_UPLOAD_STORE_FILE") as String?
+    val store = (findProperty("PDF_TOOLS_UPLOAD_STORE_FILE") as String?)?.takeIf { it.isNotBlank() }
     if (store != null) create("release") {
       storeFile = file(store)
       storePassword = findProperty("PDF_TOOLS_UPLOAD_STORE_PASSWORD") as String?

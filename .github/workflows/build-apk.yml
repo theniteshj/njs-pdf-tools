@@ -55,12 +55,14 @@ jobs:
           fi
 
       - name: Build APKs with Gradle
-        env:
-          ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_STORE_FILE: ${{ steps.keystore.outputs.has_keystore == 'true' && format('{0}/upload.jks', runner.temp) || '' }}
-          ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_STORE_PASSWORD: ${{ secrets.UPLOAD_STORE_PASSWORD }}
-          ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_KEY_ALIAS: ${{ secrets.UPLOAD_KEY_ALIAS }}
-          ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_KEY_PASSWORD: ${{ secrets.UPLOAD_KEY_PASSWORD }}
-        run: ./gradlew :app:assembleRelease -PallAbis
+        run: |
+          if [ "${{ steps.keystore.outputs.has_keystore }}" = "true" ]; then
+            export ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_STORE_FILE="$RUNNER_TEMP/upload.jks"
+            export ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_STORE_PASSWORD="${{ secrets.UPLOAD_STORE_PASSWORD }}"
+            export ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_KEY_ALIAS="${{ secrets.UPLOAD_KEY_ALIAS }}"
+            export ORG_GRADLE_PROJECT_PDF_TOOLS_UPLOAD_KEY_PASSWORD="${{ secrets.UPLOAD_KEY_PASSWORD }}"
+          fi
+          ./gradlew :app:assembleRelease -PallAbis
 
       - name: Upload APKs as Artifact
         uses: actions/upload-artifact@v4
